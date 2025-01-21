@@ -9,9 +9,6 @@ uvicorn==0.29.0
 # SQLAlchemy for ORM (Object-Relational Mapping)
 sqlalchemy==2.0.37
 
-# SQLite support for SQLAlchemy
-sqlite
-
 # Pydantic for data validation
 pydantic==2.6.4
 
