@@ -1,0 +1,25 @@
+# requirements.txt
+
+# FastAPI framework for building APIs
+fastapi==0.110.0
+
+# ASGI server for running FastAPI
+uvicorn==0.29.0
+
+# SQLAlchemy for ORM (Object-Relational Mapping)
+sqlalchemy==2.0.37
+
+# SQLite support for SQLAlchemy
+sqlite
+
+# Pydantic for data validation
+pydantic==2.6.4
+
+# CORS middleware for handling cross-origin requests
+fastapi[all]
+
+# Optional development tools
+pytest==8.0.0  # For running tests
+black==24.3.0   # Code formatting
+isort==5.13.2   # Import sorting
+
